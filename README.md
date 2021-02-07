@@ -7,3 +7,7 @@ useful for sharing offset with other people or different IDA remote debug & stat
 ![Alt text](1.png?raw=true "Title")
 
 ![Alt text](2.png?raw=true "Title")
+
+# ins
+
+Copy `ofb.py` to `plugins` directory
