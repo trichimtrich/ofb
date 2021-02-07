@@ -42,7 +42,7 @@ class OFB(idaapi.plugin_t):
     def _try_clean_action(self):
         stt, _ = idaapi.get_action_state(OFB_ACTION_NAME)
         if stt:
-            print('[O] Unregister action: {}'.format(idaapi.unregister_action(ACTION_NAME)))         
+            print('[O] Unregister action: {}'.format(idaapi.unregister_action(OFB_ACTION_NAME)))         
     
     
     def init(self):
