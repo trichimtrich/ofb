@@ -1,17 +1,35 @@
 # ofb
 
 idapython plugin
-- get binary offset from current image/module base (in both dbg & analysing view) and copy to clipboard
-- jump to an offset from current image/module base (in both dbg & analysing view)
 
-useful for sharing offset with other people or different IDA remote debug & static analysis view.
-
-![image](https://user-images.githubusercontent.com/7029140/110701077-af3ac100-822b-11eb-971a-72f8fed2ccb4.png)
+- get binary offset from current image/module base and copy to clipboard
 
 ![Alt text](1.png?raw=true "Title")
 
 ![Alt text](2.png?raw=true "Title")
 
-# ins
+- jump to an offset from current image/module base (Shift + G)
 
-Copy `ofb.py` to `plugins` directory
+![Alt text](3.png?raw=true "Title")
+
+- change current name to string pattern that supports offset. default: `{name}_{offset}`
+
+![Alt text](4.png?raw=true "Title")
+
+![Alt text](5.png?raw=true "Title")
+
+- work in both debuging & analysing mode
+
+useful for sharing offset with other people or different IDA remote debug & static analysis view.
+
+# instruction
+
+Copy `ofb.py` to `plugins` directory of IDA
+
+---
+
+*Optional:* To change the default template, fix constant `NAME_TEMPLATE` in `ofb.py`. Only support
+- `{name}` => your input name
+- `{offset}` => offset from base
+
+Eg: `zzz_{offset}_{name}` => `zzz_a0b1_Myname`
