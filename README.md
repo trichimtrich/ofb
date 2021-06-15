@@ -4,19 +4,19 @@ idapython plugin
 
 - get binary offset from current image/module base and copy to clipboard
 
-![Alt text](1.png?raw=true "Title")
+![Alt text](img/1.png "Title")
 
-![Alt text](2.png?raw=true "Title")
+![Alt text](img/2.png "Title")
 
 - jump to an offset from current image/module base (Shift + G)
 
-![Alt text](3.png?raw=true "Title")
+![Alt text](img/3.png "Title")
 
 - change current name to string pattern that supports offset. default: `{name}_{offset}`
 
-![Alt text](4.png?raw=true "Title")
+![Alt text](img/4.png "Title")
 
-![Alt text](5.png?raw=true "Title")
+![Alt text](img/5.png "Title")
 
 - work in both debuging & analysing mode
 
