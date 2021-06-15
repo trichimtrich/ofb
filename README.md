@@ -2,17 +2,17 @@
 
 idapython plugin
 
-- get binary offset from current image/module base and copy to clipboard
+- **get** binary offset from current image/module base and **copy** to clipboard
 
 ![Alt text](img/1.png "Title")
 
 ![Alt text](img/2.png "Title")
 
-- jump to an offset from current image/module base (Shift + G)
+- **jump** to an offset from current image/module base **(Shift + G)**
 
 ![Alt text](img/3.png "Title")
 
-- change current name to string pattern that supports offset. default: `{name}_{offset}`
+- **change current name** to string pattern that supports offset. default: `{name}_{offset}` **(Shift + N)**
 
 ![Alt text](img/4.png "Title")
 
